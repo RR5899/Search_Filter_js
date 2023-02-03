@@ -1,0 +1,78 @@
+@Import Url('Https://Fonts.Googleapis.Com/Css2?Family=Roboto:wght@400;700&Display=Swap');
+* {
+Box-Sizing: Border-Box;
+}
+Body {
+Background-Color: #F8f9fd;
+Font-Family: 'Roboto', Sans-Serif;
+Display: Flex;
+Align-Items: Center;
+Justify-Content: Center;
+Height: 100vh;
+Overflow: Hidden;
+Margin: 0;
+}
+.Container {
+Border-Radius: 5px;
+Box-Shadow: 3px 3px 10px Rgba(0, 0, 0, 0.2);
+Overflow: Hidden;
+Width: 300px;
+}
+.Title {
+Margin: 0;
+}
+.Subtitle {
+Display: Inline-Block;
+Margin: 5px 0 20px;
+Opacity: 0.8;
+}
+.Header {
+Background-Color: #3e57db;
+Color: #Fff;
+Padding: 30px 20px;
+}
+.Header Input {
+Background-Color: Rgba(0, 0, 0, 0.3);
+Border: 0;
+Border-Radius: 50px;
+Color: #Fff;
+Font-Size: 14px;
+Padding: 10px 15px;
+Width: 100%;
+}
+.Header Input:focus {
+Outline: None;
+}
+.User-List {
+Background-Color: #Fff;
+List-Style-Type: None;
+Margin: 0;
+Padding: 0;
+Max-Height: 400px;
+Overflow-Y: Auto;
+}
+.User-List Li {
+Display: Flex;
+Padding: 20px;
+}
+.User-List Img {
+Border-Radius: 50%;
+Object-Fit: Cover;
+Height: 50px;
+Width: 50px;
+}
+.User-List .User-Info {
+Margin-Left: 10px;
+}
+.User-List .User-Info H4 {
+Margin: 0 0 10px;
+}
+.User-List .User-Info P {
+Font-Size: 12px;
+}
+.User-List Li:not(:Last-Of-Type) {
+Border-Bottom: 1px Solid #Eee;
+}
+.User-List Li.Hide {
+Display: None;
+}
